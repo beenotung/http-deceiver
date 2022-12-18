@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "standard",
     "test": "mocha --reporter=spec test/*-test.js",
-    "coverage": "istanbul cover node_modules/.bin/_mocha -- --reporter=spec test/**/*-test.js"
+    "coverage": "nyc node_modules/.bin/_mocha -- --reporter=spec test/**/*-test.js"
   },
   "pre-commit": [
     "lint",
@@ -29,11 +29,13 @@
   "homepage": "https://github.com/spdy-http2/http-deceiver#readme",
   "devDependencies": {
     "handle-thing": "^1.0.1",
-    "istanbul": "^0.4.5",
-    "mocha": "^2.2.5",
+    "nyc": "^15.1.0",
     "pre-commit": "^1.2.2",
     "readable-stream": "^2.0.1",
     "standard": "^8.6.0",
     "stream-pair": "^1.0.0"
+  },
+  "dependencies": {
+    "mocha": "^10.2.0"
   }
 }
