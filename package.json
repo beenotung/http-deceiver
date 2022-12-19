@@ -1,6 +1,6 @@
 {
-  "name": "http-deceiver",
-  "version": "1.2.7",
+  "name": "http-deceiver-fixes",
+  "version": "1.2.8",
   "description": "Deceive HTTP parser",
   "main": "lib/deceiver.js",
   "scripts": {
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/spdy-http2/http-deceiver.git"
+    "url": "git+ssh://git@github.com/beenotung/http-deceiver.git"
   },
   "keywords": [
     "http",
@@ -22,11 +22,14 @@
     "deceive"
   ],
   "author": "Fedor Indutny <fedor@indutny.com>",
+  "contributors": [
+    "Beeno Tung <aabbcc1241@yahoo.com.hk>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/spdy-http2/http-deceiver/issues"
+    "url": "https://github.com/beenotung/http-deceiver/issues"
   },
-  "homepage": "https://github.com/spdy-http2/http-deceiver#readme",
+  "homepage": "https://github.com/beenotung/http-deceiver#readme",
   "devDependencies": {
     "handle-thing": "^1.0.1",
     "nyc": "^15.1.0",

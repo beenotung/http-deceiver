@@ -1,12 +1,11 @@
-# HTTP Deceiver
+# HTTP Deceiver (fixes)
 
-[![Build Status](https://travis-ci.org/spdy-http2/http-deceiver.svg?branch=master)](http://travis-ci.org/spdy-http2/http-deceiver)
-[![NPM version](https://badge.fury.io/js/http-deceiver.svg)](http://badge.fury.io/js/http-deceiver)
-[![dependencies Status](https://david-dm.org/spdy-http2/http-deceiver/status.svg?style=flat-square)](https://david-dm.org/spdy-http2/http-deceiver)
+[![NPM version](https://img.shields.io/npm/v/http-deceiver-fixes)](https://www.npmjs.com/package/http-deceiver-fixes)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
-[![Waffle](https://img.shields.io/badge/track-waffle-blue.svg?style=flat-square)](https://waffle.io/spdy-http2/node-spdy)
 
 > Deceive!
+
+This module is named `http-deceiver-fixes`, it is forked from [http-deceiver](https://github.com/spdy-http2/http-deceiver) to patch fixes pending in the pull requests [[5]](https://github.com/spdy-http2/http-deceiver/pull/5) and [[7]](https://github.com/spdy-http2/http-deceiver/pull/7)
 
 ## Usage
 
